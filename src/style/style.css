@@ -25,10 +25,11 @@ body {
     background: var(--Very-Dark-Blue);
     display: grid;
     place-content: center;
+    min-width: 325px;
 }
 
 .card {
-    width: 25rem;
+    width: clamp(20rem, 30vw, 25rem);
     height: auto;
     background: linear-gradient(var(--Dark-Blue) -50%, var(--Very-Dark-Blue) 250%);
     padding: 2rem;
