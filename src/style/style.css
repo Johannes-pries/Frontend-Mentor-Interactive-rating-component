@@ -111,3 +111,46 @@ body {
     color: var(--Orange);
     cursor: pointer;
 }
+
+.TnkYCard {
+    width: 25rem;
+    height: auto;
+    background: linear-gradient(var(--Dark-Blue) -50%, var(--Very-Dark-Blue) 250%);
+    padding: 2rem;
+    border-radius: 30px;
+    color: var(--White);
+    text-align: center;
+}
+
+.phone-svg {
+    display: grid;
+    
+}
+
+.phone-svg > svg {
+    display: inline;
+    margin: 0 auto 2rem;
+}
+
+.rating-result {
+    margin: 2rem 0;
+    color: var(--Orange);
+    opacity: .8;
+    background-color: var(--Dark-Blue);
+    padding: .5rem .8rem;
+    display: inline;
+    border-radius: 20px;
+    font-size: .9rem;
+}
+
+.TnkYCard > h2 {
+    margin: 2.6rem 0 .9rem 0;
+    font-size: 1.8rem;
+}
+
+.TnkYCard > p {
+    margin: 1rem 0 1.7rem 0;
+    color: var(--Medium-Grey);
+    line-height: 1.4rem;
+    letter-spacing: .05;
+}
